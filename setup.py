@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
+import os
+BASE_PATH = os.path.dirname(os.path.realpath(__file__))
 
+os.chdir(BASE_PATH)
 
 long_description = open('README.txt').read()
-
 
 setup(
     name='django-taggit-autosuggest-select2',

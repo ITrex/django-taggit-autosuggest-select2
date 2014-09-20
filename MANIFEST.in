@@ -1,0 +1,7 @@
+include LICENSE
+include MANIFEST.in
+include README.md
+include README.txt
+recursive-include taggit_autosuggest_select2/templates *.*
+recursive-include taggit_autosuggest_select2/static *.*
+recursive-include taggit_autosuggest_select2/locale *.*
